@@ -1,6 +1,21 @@
-function playFullScreen() {
-  const videoUrl = "https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTc4NzFkOGYtNGJjYi00OGJkLWI1N2EtMjg0MzQxYWQ1YzI0.m3u8";
+const oAutoDaCompadecida2 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTc4NzFkOGYtNGJjYi00OGJkLWI1N2EtMjg0MzQxYWQ1YzI0.m3u8'
+const enfeiticados = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/MmNjMGRlYzUtODYzMC00ZmY0LWIwYzktMmIwZWI4Y2M1N2E4.m3u8'
 
+
+
+
+function v001(){
+  playFullScreen(oAutoDaCompadecida2)
+}
+function v002() {
+  playFullScreen(enfeiticados)
+}
+
+
+
+
+function playFullScreen(link) {
+  const videoUrl = link
   // Cria o elemento de vídeo
   const video = document.createElement('video');
   video.src = videoUrl;
