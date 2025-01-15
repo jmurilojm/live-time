@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Live Time</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+      background: black;
+    }
+
+    header {
+      background: black;
+      color: red;
+      text-transform: uppercase;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 2px solid red;
+      margin-bottom: 20px;
+    }
+
+    a {
+      background: lightblue;
+      color: black;
+      display: block;
+      width: 80%;
+      border-radius: 0 50px 50px 0;
+      padding: 10px 0 10px 30px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: black;
+      color: red;
+      font-size: 12px;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  
-  <a href="#" onclick="playFullScreen()">O Auto da Compadecida 2</a>
+  <header>
+    <h1>Live-Time</h1>
+  </header>
+  <main>
+    <a href="#" onclick="playFullScreen()">📺  O Auto da Compadecida 2</a>
+  </main>
+  <footer>
+    <p>&copy;JM | 2025</p>
+  </footer>
+
 
   <script>
     function playFullScreen() {
       const videoUrl = "https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTc4NzFkOGYtNGJjYi00OGJkLWI1N2EtMjg0MzQxYWQ1YzI0.m3u8";
-      
+
       // Cria o elemento de vídeo
       const video = document.createElement('video');
       video.src = videoUrl;
@@ -40,4 +94,5 @@
     }
   </script>
 </body>
+
 </html>
