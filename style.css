@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: black;
+}
+
+header {
+  background: black;
+  color: red;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 3px solid red;
+  margin-bottom: 20px;
+}
+
+a {
+  background: lightyellow;
+  color: black;
+  display: inline-block;
+  width: 65%;
+  border-radius: 0 50px 50px 0;
+  padding: 10px 5px;
+  text-decoration: none;
+  margin: 0 5px 5px 0;
+}
+
+span {
+  background: lightyellow;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+footer {
+  background: black;
+  color: red;
+  font-size: 12px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
