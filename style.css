@@ -22,18 +22,32 @@ header {
 a {
   background: lightyellow;
   color: black;
-  display: inline-block;
-  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
   border-radius: 0 50px 50px 0;
   padding: 10px 5px;
   text-decoration: none;
   margin: 0 5px 5px 0;
 }
 
+i {
+  margin: 0 5px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
 span {
-  background: lightyellow;
-  padding: 10px;
+  background: black;
+  color: lightyellow;
+  padding: 5px;
   border-radius: 50px;
+  margin-left: 5px;
+  font-size: 8px;
 }
 
 footer {
