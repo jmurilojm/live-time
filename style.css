@@ -19,6 +19,10 @@ header {
   margin-bottom: 20px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   background: lightyellow;
   color: black;
