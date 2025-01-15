@@ -23,18 +23,25 @@
       text-transform: uppercase;
       padding: 10px;
       text-align: center;
-      border-bottom: 2px solid red;
+      border-bottom: 3px solid red;
       margin-bottom: 20px;
     }
 
     a {
-      background: lightblue;
+      background: lightyellow;
       color: black;
-      display: block;
-      width: 80%;
+      display: inline-block;
+      width: 65%;
       border-radius: 0 50px 50px 0;
-      padding: 10px 0 10px 30px;
+      padding: 10px 5px;
       text-decoration: none;
+      margin: 0 5px 5px 0;
+    }
+    
+    span {
+      background: lightyellow;
+      padding: 10px;
+      border-radius: 50px;
     }
 
     footer {
@@ -56,7 +63,11 @@
     <h1>Live-Time</h1>
   </header>
   <main>
-    <a href="#" onclick="playFullScreen()">📺  O Auto da Compadecida 2</a>
+    <a href="#" onclick="playFullScreen()">
+      📺  
+      O Auto da Compadecida 2</a>
+      <span>2025</span>
+      <span>Cam</span>
   </main>
   <footer>
     <p>&copy;JM | 2025</p>
