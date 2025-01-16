@@ -7,9 +7,9 @@ const enfeiticados = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/M
 function v001(){
   playFullScreen(oAutoDaCompadecida2)
 }
-function v002() {
-  playFullScreen(enfeiticados)
-}
+//function v002() {
+  //playFullScreen(enfeiticados)
+//}
 
 
 
