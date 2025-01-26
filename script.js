@@ -1,10 +1,10 @@
 const oAutoDaCompadecida2 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTc4NzFkOGYtNGJjYi00OGJkLWI1N2EtMjg0MzQxYWQ1YzI0.m3u8'
-const aindaEstouAqui = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/N2VjM2E0NjEtMWM4Ny00NjVjLTg2ZWEtNjQ5YmFiN2FiNzZk.m3u8'
+const link = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/N2VjM2E0NjEtMWM4Ny00NjVjLTg2ZWEtNjQ5YmFiN2FiNzZk.m3u8'
 
 
 
 
-function v001(){
+/*function v001(){
   playFullScreen(oAutoDaCompadecida2)
 }
 function v002() {
@@ -48,10 +48,10 @@ function playFullScreen(link) {
   } else {
     console.error('Não foi possível abrir uma nova janela. Verifique se o bloqueador de pop-ups está ativo.');
   }
-}
+}*/
 
 
-/*function playFullScreen(link) {
+function playFullScreen() {
   const videoUrl = link
   // Cria o elemento de vídeo
   const video = document.createElement('video');
@@ -77,4 +77,4 @@ function playFullScreen(link) {
   video.addEventListener('ended', () => {
     document.body.removeChild(video);
   });
-}*/
+}
