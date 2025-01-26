@@ -1,5 +1,7 @@
 const link = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/N2VjM2E0NjEtMWM4Ny00NjVjLTg2ZWEtNjQ5YmFiN2FiNzZk.m3u8';
 
+const link2 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NDQwMGMwYmMtYzBhZC00NWI2LTk5ZDAtMWI2MWUwZjU5NDgw.m3u8';
+
 function playFullScreen() {
   const videoUrl = link;
   const video = document.createElement('video');
@@ -40,6 +42,46 @@ function playFullScreen() {
   });
 }
 
+
+function playFullScreen2() {
+  const videoUrl = link2;
+  const video = document.createElement('video');
+  video.style.position = 'fixed';
+  video.style.top = '0';
+  video.style.left = '0';
+  video.style.width = '100vw';
+  video.style.height = '100vh';
+  video.style.zIndex = '1000';
+  video.controls = true;
+
+  // Adiciona o vídeo ao body
+  document.body.appendChild(video);
+
+  // Verifica suporte nativo ao HLS
+  if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = videoUrl;
+  } else if (Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource(videoUrl);
+    hls.attachMedia(video);
+  } else {
+    alert('Seu navegador não suporta reprodução de vídeos HLS.');
+  }
+
+  // Entra em tela cheia
+  video.play().then(() => {
+    video.requestFullscreen().catch(err => {
+      console.error("Erro ao entrar em tela cheia:", err);
+    });
+  }).catch(err => {
+    console.error("Erro ao reproduzir o vídeo:", err);
+  });
+
+  // Remove o vídeo ao terminar
+  video.addEventListener('ended', () => {
+    document.body.removeChild(video);
+  });
+}
 
 
 

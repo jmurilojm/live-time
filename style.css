@@ -19,12 +19,13 @@ header {
   margin-bottom: 20px;
 }
 
-main{
-  padding: 0 20px;
+main {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-button{
-  background-image: url(https://cdn.syncdev.com.br//uploads/video_thumb/13371.jpg);
+button {
   width: 160px;
   height: 250px;
   background-repeat: no-repeat;
@@ -33,7 +34,15 @@ button{
   border-radius: 10px;
 }
 
-button div{
+button.btn1 {
+  background-image: url(https://cdn.syncdev.com.br//uploads/video_thumb/13371.jpg);
+}
+
+button.btn2 {
+  background-image: url(https://cdn.syncdev.com.br//uploads/video_thumb/13790.jpg);
+}
+
+button div {
   width: 100%;
   padding: 5px;
 }
