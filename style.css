@@ -45,6 +45,8 @@ button.btn2 {
 button div {
   width: 100%;
   padding: 5px;
+  background: white;
+  border-radius: 10px;
 }
 
 button div span {
