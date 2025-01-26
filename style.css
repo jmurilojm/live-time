@@ -26,8 +26,8 @@ main {
 }
 
 button {
-  width: 160px;
-  height: 250px;
+  width: 180px;
+  height: 270px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -43,16 +43,16 @@ button.btn2 {
 }
 
 button div {
-  width: 100%;
-  padding: 5px;
+  padding: 10px 0;
   background: white;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
 }
 
 button div span {
   background: black;
   color: lightyellow;
-  padding: 5px 3px;
+  padding: 5px;
   border-radius: 50px;
   font-size: 10px;
 }
