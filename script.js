@@ -1,5 +1,5 @@
 const oAutoDaCompadecida2 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/ZTc4NzFkOGYtNGJjYi00OGJkLWI1N2EtMjg0MzQxYWQ1YzI0.m3u8'
-const enfeiticados = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/MmNjMGRlYzUtODYzMC00ZmY0LWIwYzktMmIwZWI4Y2M1N2E4.m3u8'
+const aindaEstouAqui = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/N2VjM2E0NjEtMWM4Ny00NjVjLTg2ZWEtNjQ5YmFiN2FiNzZk.m3u8'
 
 
 
@@ -8,7 +8,7 @@ function v001(){
   playFullScreen(oAutoDaCompadecida2)
 }
 function v002() {
-  playFullScreen(enfeiticados)
+  playFullScreen(aindaEstouAqui)
 }
 
 
