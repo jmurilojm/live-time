@@ -19,43 +19,27 @@ header {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-a {
-  background: lightyellow;
-  color: black;
+button{
+  background-image: url(https://cdn.syncdev.com.br//uploads/video_thumb/13371.jpg);
+  width: 160px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 90%;
-  border-radius: 0 50px 50px 0;
-  padding: 10px 5px;
-  text-decoration: none;
-  box-shadow: 3px 3px 0 gray;
+  border-radius: 10px;
 }
 
-i {
-  margin: 0 5px;
+button div{
+  width: 100%;
+  padding: 5px;
 }
 
-div {
-  display: flex;
-  align-items: center;
-}
-
-span {
+button div span {
   background: black;
   color: lightyellow;
   padding: 5px;
   border-radius: 50px;
-  margin-left: 5px;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 footer {
