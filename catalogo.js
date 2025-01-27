@@ -23,3 +23,21 @@ const link6 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NDY2MGEw
 // o cacador 2024 16 acao hd
 const link6 = 'https://sinalprivado.info/m3u8/MQ==/dnotNTgwOTllNWQtZGM2/NzUyOTU5YTctNmRiNy00MDAxLTlkMmItMjM2YjZjYjY4YmZj.m3u8'
 //imagem: https://cdn.syncdev.com.br//uploads/video_thumb/13521.jpg
+
+const filmes = [
+  {
+    nome: 'A Vigia',
+    funcao: 'aVigia',
+    ano: 2023,
+    qualidade: 'HD',
+    genero: 'Terror',
+    classificacao: 'L',
+  },
+  {
+    nome: 'O Assassino do Calendário',
+    funcao: 'oAssassinoDoCalendario',
+    ano: 2025,
+    qualidade: 'HD',
+    genero: 'Terror',
+    classificacao: '16'
+  }]
