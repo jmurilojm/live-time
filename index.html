@@ -1,41 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live Time</title>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TFilmes</title>
+  <style>
+    :root{
+      --altura: 0px;
+      --largura: 115px;
+    }
+    body{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: center;
+    }
+    button{
+      /*
+      width: calc(var(--altura) * 9 / 16);
+      height: var(--altura);
+      */
+      width: var(--largura);
+      height: calc(var(--largura) * 16 / 9);
+      border: none;
+      border-radius: 8px;
+      
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  </style>
 </head>
 
-<body>
-  <header>
-    <h1>Live-Time</h1>
-  </header>
-  <main>
-    <!--<button class="btn1" onclick="playFullScreen()">
-      <div>
-        <span>2024</span>
-        <span>Cinema</span>
-        <span>Drama</span>
-        <span>14</span>
-      </div>
-    </button>
-    
-    <button class="btn2" onclick="playFullScreen2()">
-      <div>
-        <span>2024</span>
-        <span>HD</span>
-        <span>Drama</span>
-        <span>18</span>
-      </div>
-    </button>-->
-  </main>
-  <footer>
-    <p>&copy;JM | 2025</p>
-  </footer>
-
+<body onload="criarLinks()">
+  
   <script src="catalogo.js"></script>
   <script src="script.js"></script>
 </body>
