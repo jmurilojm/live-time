@@ -6,17 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TFilmes</title>
   <style>
-    :root{
+    :root {
       --altura: 0px;
       --largura: 115px;
     }
+    
     body{
+      text-align: center;
+    }
+    
+    main {
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
       justify-content: center;
     }
-    button{
+    
+    button {
       /*
       width: calc(var(--altura) * 9 / 16);
       height: var(--altura);
@@ -34,6 +40,17 @@
 </head>
 
 <body onload="criarLinks()">
+  <nav>
+    <form action="">
+      <p>
+        <label for="">Pesquisar:</label>
+        <input type="search" name="" id="inPesquisar" onkeyup="pesquisar()">
+      </p>
+    </form>
+  </nav>
+  <main>
+    
+  </main>
   
   <script src="catalogo.js"></script>
   <script src="script.js"></script>
