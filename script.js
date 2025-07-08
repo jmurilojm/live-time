@@ -9,6 +9,21 @@ function criarLinks() {
     link.style.backgroundImage = `url(${filmes[i].img})`
     link.setAttribute('onclick', `assistir('${filmes[i].id}')`)
     
-    document.getElementsByTagName('body')[0].appendChild(link)
+    document.getElementsByTagName('main')[0].appendChild(link)
+  }
+}
+
+function pesquisar() {
+  document.getElementsByTagName('main')[0].textContent = ''
+  const texto = document.getElementById('inPesquisar').value.toLowerCase()
+  
+  for (let i = 0; i < filmes.length; i++) {
+    if (filmes[i].nome.toLowerCase().includes(texto)) {
+      const link = document.createElement('button')
+      link.style.backgroundImage = `url(${filmes[i].img})`
+      link.setAttribute('onclick', `assistir('${filmes[i].id}')`)
+      
+      document.getElementsByTagName('main')[0].appendChild(link)
+    }
   }
 }
