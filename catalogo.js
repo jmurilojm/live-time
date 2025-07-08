@@ -18,6 +18,46 @@ const filmes = [
   id: 'tt26743210',
   nome: 'Como Treinar o Seu Dragão | Título original: How to Train Your Dragon | 2025 | 10 | 2 h 5 min',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZPeQG1ngxPnYPxhiTxgdTLrfr0avN7qOwByvQaMyYJYg08bKJuSU3OzBx&s=10'
+},
+{
+  id: 'tt3566834',
+  nome: 'Um Filme Minecraft | Título original: A Minecraft Movie | 2025 | 10 | 1 h 41 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36ly20z25LzR0nACq5Tyb7thYuzhbU2Vnacu0rvNIqkeabK_GmKyQcLw&s=10'
+},
+{
+  id: 'tt6208148',
+  nome: 'Branca de Neve |Título original: Snow White | 2025 | 10 | 1 h 49 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1vvFL6ns3ZmhyphqMC5fDTrURFEmOyd6F0pWC9XABUyv5HmPgroLqLjS2&s=10'
+},
+{
+  id: '',
+  nome: '',
+  img: ''
+},
+{
+  id: '',
+  nome: '',
+  img: ''
+},
+{
+  id: '',
+  nome: '',
+  img: ''
+},
+{
+  id: '',
+  nome: '',
+  img: ''
+},
+{
+  id: '',
+  nome: '',
+  img: ''
+},
+{
+  id: '',
+  nome: '',
+  img: ''
 }
 ]
 
