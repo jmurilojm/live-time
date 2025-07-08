@@ -1,6 +1,6 @@
-function assistir(idIMDB) {
+function assistir(idIMDb) {
   // Abre uma nova aba com a página que contém o iframe, passando a URL do filme
-  window.open('video.html?url=' + encodeURIComponent(`https://playerflixapi.com/filme/${idIMDB}`), '_self');
+  window.open('video.html?url=' + encodeURIComponent(`https://playerflixapi.com/filme/${idIMDb}`), '_self');
 }
 
 function criarLinks() {
@@ -26,4 +26,20 @@ function pesquisar() {
       document.getElementsByTagName('main')[0].appendChild(link)
     }
   }
+}
+
+
+// Pix e Modal
+function copiarPix() {
+  const codigo = document.getElementById('codigoPix').textContent;
+  navigator.clipboard.writeText(codigo).then(() => {
+    document.getElementById('modal-pix').style.display = 'none'
+    alert('Chave PIX copiada!\n\nObrigado!');
+  }).catch(() => {
+    alert('Erro ao copiar o chave.');
+  });
+}
+
+function pegarChavePix() {
+  document.getElementById('modal-pix').style.display = 'flex'
 }
