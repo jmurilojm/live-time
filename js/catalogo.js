@@ -36,12 +36,12 @@ const filmes = [
 },
 {
   id: 'tt26342662',
-  nome: 'M3GAN 2.0 | 2025 | 16 | 2 h',
+  nome: 'M3GAN 2.0 (MEGAN) | 2025 | 16 | 2 h',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62r-npDhy6bFAiXHhymAR89G2E01wkGLvC1ounP1BOy3EtCvSwaGd8bov&s=10'
 },
 {
   id: 'tt8760708',
-  nome: 'M3GAN | 2022 | 14 | 1 h 42 min',
+  nome: 'M3GAN (MEGAN) | 2022 | 14 | 1 h 42 min',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgjxYp6nx_wUpmMLppai0opQx5Mt8VOsJaRdPH1RP8ongelAvT-P_-aGl&s=10'
 },
 {

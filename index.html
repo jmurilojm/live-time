@@ -5,142 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FILMES - IMDb</title>
-  <style>
-    :root {
-      --altura: 0px;
-      --largura: 30vw;
-      /* 115px ou 30vw para 3 imagens */
-    }
-    
-    html {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body {
-      text-align: center;
-      background-color: black;
-    }
-    
-    h1 {
-      color: red;
-      text-shadow: 1px 1px 0 gray;
-      margin-bottom: 0;
-    }
-    
-    h6 {
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      word-spacing: 3px;
-      text-transform: uppercase;
-      margin-top: 0;
-    }
-    
-    h6 strong {
-      color: seagreen;
-      font-size: 2rem;
-      text-transform: uppercase;
-      
-      cursor: pointer;
-      padding: 0 5px;
-      animation: piscar 2s linear infinite;
-    }
-    
-    h6 span {
-      padding: 0 5px;
-    }
-    
-    nav {
-      color: white;
-      border-bottom: 3px solid red;
-    }
-    
-    input {
-      border-radius: 10px;
-      padding: 5px 10px;
-      outline-style: none;
-      border: none;
-      margin: 5px;
-    }
-    
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-      padding: 20px 0;
-    }
-    
-    button {
-      /*
-      width: calc(var(--altura) * 9 / 16);
-      height: var(--altura);
-      */
-      width: var(--largura);
-      height: calc(var(--largura) * 16 / 9);
-      border: none;
-      border-radius: 8px;
-      box-shadow: 1px 1px 0 gray;
-      cursor: pointer;
-      
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-    
-    .modal-pix {
-      background-color: #000000aa;
-      width: 100vw;
-      height: 100vh;
-      
-      position: fixed;
-      top: 0;
-      display: none;
-    }
-    
-    .caixa-pix {
-      background-color: white;
-      padding: 20px;
-      width: 200px;
-      height: 200px;
-      border-radius: 10px;
-      
-      position: fixed;
-      top: calc(50% - 100px - 20px);
-      left: calc(50% - 100px - 20px);
-      border: 3px solid seagreen;
-    }
-    
-    .caixa-pix button {
-      width: 100px;
-      height: 40px;
-      background-color: seagreen;
-      color: white;
-      cursor: pointer;
-    }
-    
-    @media (min-width: 720px) {
-      :root {
-        --largura: 20vw;
-        /* 165px ou 20vw para + imagens */
-      }
-    }
-    
-    @keyframes piscar {
-      0% {
-        color: red;
-      }
-      
-      50% {
-        color: blue;
-      }
-      
-      100% {
-        color: green;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body onload="criarLinks()">
@@ -153,7 +18,7 @@
     <form action="">
       <p>
         <label for="">Pesquisar:</label>
-        <input type="search" name="" id="inPesquisar" onkeyup="pesquisar()">
+        <input type="search" name="" id="inPesquisar" onkeyup="pesquisar()" onblur="tirarFoco()">
       </p>
     </form>
   </nav>
@@ -172,8 +37,8 @@
   </div>
   
   
-  <script src="catalogo.js"></script>
-  <script src="script.js"></script>
+  <script src="js/catalogo.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

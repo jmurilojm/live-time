@@ -1,6 +1,6 @@
 function assistir(idIMDb) {
   // Abre uma nova aba com a página que contém o iframe, passando a URL do filme
-  window.open('video.html?url=' + encodeURIComponent(`https://playerflixapi.com/filme/${idIMDb}`), '_self');
+  window.open('paginas/video.html?url=' + encodeURIComponent(`https://playerflixapi.com/filme/${idIMDb}`), '_self');
 }
 
 function criarLinks() {
@@ -42,4 +42,10 @@ function copiarPix() {
 
 function pegarChavePix() {
   document.getElementById('modal-pix').style.display = 'flex'
+}
+
+function tirarFoco(){
+  document.getElementById('inPesquisar').value = ''
+  document.getElementsByTagName('main')[0].textContent = ''
+  criarLinks()
 }
