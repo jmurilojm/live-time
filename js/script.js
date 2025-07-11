@@ -13,6 +13,8 @@ function criarLinks() {
   }
 }
 
+
+// CAMPO DE PESQUISA
 function pesquisar() {
   document.getElementsByTagName('main')[0].textContent = ''
   const texto = document.getElementById('inPesquisar').value.toLowerCase()
@@ -28,8 +30,14 @@ function pesquisar() {
   }
 }
 
+function tirarFoco() {
+  document.getElementById('inPesquisar').value = ''
+  document.getElementsByTagName('main')[0].textContent = ''
+  criarLinks()
+}
 
-// Pix e Modal
+
+// MODAL E PIX
 function copiarPix() {
   const codigo = document.getElementById('codigoPix').textContent;
   navigator.clipboard.writeText(codigo).then(() => {
@@ -44,8 +52,6 @@ function pegarChavePix() {
   document.getElementById('modal-pix').style.display = 'flex'
 }
 
-function tirarFoco(){
-  document.getElementById('inPesquisar').value = ''
-  document.getElementsByTagName('main')[0].textContent = ''
-  criarLinks()
+function sair() {
+  document.getElementById('modal-pix').style.display = 'none'
 }

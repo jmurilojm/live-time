@@ -81,6 +81,7 @@ button {
   background-position: center center;
 }
 
+/* TELA COM TRANSPARENCIA E CAIXA COM O COPIAR CHAVE PIX*/
 .modal-pix {
   background-color: #000000aa;
   width: 100vw;
@@ -112,6 +113,18 @@ button {
   cursor: pointer;
 }
 
+.fechar-modal {
+  /* BOTAO */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: -20px;
+  top: -30px;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERY E ANIMACOES */
 @media (min-width: 720px) {
   :root {
     --largura: 20vw;
