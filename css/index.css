@@ -73,7 +73,7 @@ button {
   height: calc(var(--largura) * 16 / 9);
   border: none;
   border-radius: 8px;
-  box-shadow: 1px 1px 0 gray;
+  /*box-shadow: 1px 1px 0 gray;*/
   cursor: pointer;
   
   background-size: cover;
