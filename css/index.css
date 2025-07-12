@@ -164,8 +164,8 @@ button {
   :root{
     --largura: 15vw;
   }
-  main{
-    gap: 5px;
+  button{
+    margin: 0 2.5px;
   }
 }
 
