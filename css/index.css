@@ -132,11 +132,14 @@ button {
   display: none;
   border-radius: 5px;
   overflow: hidden;
+  text-align: center;
 }
 
 .qrCode img{
-  width: 100%;
+  width: 95%;
   border-radius: 5px;
+  border: 2px solid;
+  animation: piscar 2s linear infinite;
 }
 
 .qrCode p{
