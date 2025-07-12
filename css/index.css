@@ -161,6 +161,9 @@ button {
     display: block;
     top: 2%;
   }
+  :root{
+    --largura: 10vw;
+  }
 }
 
 @keyframes piscar {
