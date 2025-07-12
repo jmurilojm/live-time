@@ -164,6 +164,9 @@ button {
   :root{
     --largura: 15vw;
   }
+  main{
+    gap: 5px;
+  }
 }
 
 @keyframes piscar {
