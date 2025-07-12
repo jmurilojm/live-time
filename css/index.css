@@ -123,12 +123,39 @@ button {
   cursor: pointer;
 }
 
+.qrCode{
+  width: 100px;
+  min-height: 100px;
+  position: absolute;
+  right: 2%;
+  top: 1%;
+  display: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.qrCode img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.qrCode p{
+  color: white;
+  font-size: 5pt;
+  margin: 0;
+}
 
 /* MEDIA QUERY E ANIMACOES */
 @media (min-width: 720px) {
   :root {
     --largura: 20vw;
     /* 165px ou 20vw para + imagens */
+  }
+}
+
+@media (min-width: 1024px){
+  .qrCode{
+    display: block;
   }
 }
 
