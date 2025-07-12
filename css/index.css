@@ -159,6 +159,7 @@ button {
 @media (min-width: 1024px){
   .qrCode{
     display: block;
+    top: 2%;
   }
 }
 
