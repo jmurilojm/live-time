@@ -5,6 +5,11 @@ const filmes = [
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeavNeO2hmDVOnKCqz5v7ruNVAPQttFB7c91bI6r9yu5JyuHHlUWpG_xOm&s=10'
 },
 {
+  id: 'tt31193180',
+  nome: 'Pecadores Título original: Sinners 2025 16 2 h 17 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHchm2Jfg3FhLHuP1fs_8Nh59Ac_0-QLsEg&s'
+},
+{
   id: 'tt2049403',
   nome: 'Os Fantasmas Ainda se Divertem: Beetlejuice Beetlejuice | Título original: Beetlejuice Beetlejuice | 2024 | 14 | 1 h 45 min',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0tt7Q-7vT3bWdk_xIM2XCvsVJieq9AJsZoTi348lOuGVDvzd-kYaYtoyq&s=10'
