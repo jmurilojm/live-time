@@ -5,6 +5,16 @@ const filmes = [
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeavNeO2hmDVOnKCqz5v7ruNVAPQttFB7c91bI6r9yu5JyuHHlUWpG_xOm&s=10'
 },
 {
+  id: 'tt5950044',
+  nome: 'Superman 2025 14 2 h 9 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWNHdBOsMme95Fge5F--ZCR28LLqNrb66XQ&s'
+},
+{
+  id: 'tt31710822',
+  nome: 'Indomável Título original: Untamed Minissérie de televisão 2025 TV-MA 50 min',
+  img: 'https://m.media-amazon.com/images/M/MV5BODkxMDM5YWItNDcxZi00NjQ3LWE3NzMtNjM0MzgyNWM0MDhhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
+},
+{
   id: 'tt31193180',
   nome: 'Pecadores Título original: Sinners 2025 16 2 h 17 min',
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHchm2Jfg3FhLHuP1fs_8Nh59Ac_0-QLsEg&s'
