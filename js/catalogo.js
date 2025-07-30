@@ -10,9 +10,14 @@ const filmes = [
   img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWNHdBOsMme95Fge5F--ZCR28LLqNrb66XQ&s'
 },
 {
-  id: 'tt31710822',
-  nome: 'Indomável Título original: Untamed Minissérie de televisão 2025 TV-MA 50 min',
-  img: 'https://m.media-amazon.com/images/M/MV5BODkxMDM5YWItNDcxZi00NjQ3LWE3NzMtNjM0MzgyNWM0MDhhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'
+  id: 'tt20969586',
+  nome: 'Thunderbolts* 2025 14 2 h 7 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI5g9q0sHc15_lQGU5gbF7G7u23i6Vpic_21UoSBR1apvKO-QzjK63R98&s=10'
+},
+{
+  id: 'tt0899043',
+  nome: 'Operação Vingança Título original: The Amateur 2025 14 2 h 2 min',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7Uu2FXkrVUXcjyFb_pQD55LOZEHcm0k0MG2CoVdimlFvUu7yBl_Ti1Q&s=10'
 },
 {
   id: 'tt31193180',
